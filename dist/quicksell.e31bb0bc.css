@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 180px;
+  height: 56px;
+  /* border: 1px solid #b24242; */
+  border-radius: 10px;
+  display: flex;
+  margin-top: 450px;
+  margin-left: 500px;
+}
+
+button {
+  width: 60px;
+  height: 56px;
+  font-size: 21px;
+  border: none;
+  cursor: pointer;
+  font-weight: 900;
+}
+input {
+  all: unset;
+  width: 60px;
+  height: 54px;
+  border-left: 1px solid #b24242;
+  border-top: 1px solid #b24242;
+  border-bottom: 1px solid #b24242;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.countContainer {
+  width: 60px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  place-items: center;
+  background-color: #fbe8e8;
+  color: #b24242;
+}
+
+.btnDe {
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+  color: #b24242;
+  border-left: 1px solid #b24242;
+  border-top: 1px solid #b24242;
+  border-bottom: 1px solid #b24242;
+}
+
+.btnIn {
+  background-color: #b24242;
+  border-radius: 0px 10px 10px 0px;
+  color: white;
+}
+
+
+/*# sourceMappingURL=/quicksell.e31bb0bc.css.map */
